@@ -28,5 +28,12 @@ Add all .v files (design + one testbench as top), run simulation, add signals to
     Chiplet    : result = 100, latency = 102 cycles
     ALL TESTS PASSED
 
+<img width="1013" height="225" alt="image" src="https://github.com/user-attachments/assets/ba37cb54-10fc-452a-9ce8-fda59d09b6f5" />
+<figcaption>Waveforms on GTKWave</figcaption>
+
+ <img width="940" height="475" alt="image" src="https://github.com/user-attachments/assets/60872668-2c53-4858-9b24-21a0431630a7" />
+<figcaption>RTL Schematic</figcaption>
+
+
 ## Good signals to show in GTKWave
 clk, start, u_cpu.st, rq_tx_valid, u_link_req.g_link.u_tx.flit, rq_rx_valid, rs_rx_valid, result, result_valid, err_flag

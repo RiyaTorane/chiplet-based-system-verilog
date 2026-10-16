@@ -30,7 +30,7 @@ Add all .v files (design + one testbench as top), run simulation, add signals to
 
 <img width="1013" height="225" alt="image" src="https://github.com/user-attachments/assets/ba37cb54-10fc-452a-9ce8-fda59d09b6f5" />
 <figcaption>Waveforms on GTKWave</figcaption>
-
+<br><br>
  <img width="940" height="475" alt="image" src="https://github.com/user-attachments/assets/60872668-2c53-4858-9b24-21a0431630a7" />
 <br><figcaption>RTL Schematic</figcaption>
 

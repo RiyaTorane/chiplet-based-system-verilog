@@ -17,15 +17,11 @@ die-to-die (D2D) links with parity checking.
 
 ## Run with Icarus Verilog + GTKWave
     ./run.sh
-or manually:
-    iverilog -o sim_link d2d_tx.v d2d_phy.v d2d_rx.v d2d_link.v tb_d2d_link.v && vvp sim_link
-    iverilog -o sim_sys *.v   (exclude tb_d2d_link.v) && vvp sim_sys
-    gtkwave tb_chiplet_system.vcd
 
 ## ModelSim / Vivado
 Add all .v files (design + one testbench as top), run simulation, add signals to wave.
 
-## Expected output (predicted from a cycle-accurate model; confirm on your simulator)
+## Output 
     Link latency (accept -> packet out) : 8 cycles
     Back-to-back packet interval        : 5 cycles
     Monolithic : result = 100, latency = 14 cycles

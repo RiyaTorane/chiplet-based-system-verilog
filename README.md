@@ -1,4 +1,4 @@
-# Chiplet-Based System in Verilog (Mini Project Demo)
+# Chiplet-Based System in Verilog 
 
 Compute chiplet + Memory chiplet + I/O chiplet, connected by serialized
 die-to-die (D2D) links with parity checking.
